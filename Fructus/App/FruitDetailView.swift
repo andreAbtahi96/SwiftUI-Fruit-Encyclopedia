@@ -16,7 +16,8 @@ struct FruitDetailView: View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: .center, spacing: 20){
-                    //HEADER
+                    
+                    //HEADER IMAGE
                     FruitHeaderView(fruit: fruit)
                     
                     VStack(alignment: .leading, spacing: 20){
@@ -33,6 +34,7 @@ struct FruitDetailView: View {
                             .multilineTextAlignment(.leading)
                         
                         //NUTRIENTS
+                        FruitNutrientsView(fruit: fruit)
                         
                         //SUBHEADLINE
                         Text("Learn more about \(fruit.title)".uppercased())
