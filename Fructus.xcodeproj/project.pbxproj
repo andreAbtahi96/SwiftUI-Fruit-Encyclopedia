@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		650D4CF0268F001B00C80ED4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650D4CEF268F001B00C80ED4 /* SettingsView.swift */; };
+		652669C62691106C0060D255 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652669C52691106C0060D255 /* SettingsRowView.swift */; };
 		65677571267E8BDE00DB0B61 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65677570267E8BDE00DB0B61 /* FructusApp.swift */; };
 		65677573267E8BDE00DB0B61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65677572267E8BDE00DB0B61 /* ContentView.swift */; };
 		65677575267E8BE300DB0B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65677574267E8BE300DB0B61 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		650D4CEF268F001B00C80ED4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		652669C52691106C0060D255 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = Fructus/App/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
 		6567756D267E8BDE00DB0B61 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65677570267E8BDE00DB0B61 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		65677572267E8BDE00DB0B61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		65677584267E91B100DB0B61 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				652669C52691106C0060D255 /* SettingsRowView.swift */,
 				65677585267E924F00DB0B61 /* FruitCardView.swift */,
 				656775892683037D00DB0B61 /* StartButtonView.swift */,
 				65BA7CE5268670BE009DF43B /* FruitRowView.swift */,
@@ -208,6 +211,7 @@
 			files = (
 				657159C72683B21200AA9817 /* FruitData.swift in Sources */,
 				65E9A14B268955C2006A1460 /* SourceLinkView.swift in Sources */,
+				652669C62691106C0060D255 /* SettingsRowView.swift in Sources */,
 				65677573267E8BDE00DB0B61 /* ContentView.swift in Sources */,
 				65BA7CE6268670BE009DF43B /* FruitRowView.swift in Sources */,
 				7DA0F2CD268C50AB0078F383 /* FruitNutrientsView.swift in Sources */,

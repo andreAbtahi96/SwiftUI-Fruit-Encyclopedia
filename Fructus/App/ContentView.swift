@@ -26,10 +26,11 @@ struct ContentView: View {
                             FruitRowView(fruit: item)
                                 .padding(.vertical, 4)
                         }//end of NavigationLink
-
                 }//ForEach
             }//list
             .navigationTitle("Fruits")
+            
+            //SETTINGS BUTTON
             .navigationBarItems(
             trailing:
                 Button(action: {
@@ -44,6 +45,7 @@ struct ContentView: View {
                 }
             )//  navigationBarItems
         }//NavigationView
+        .navigationViewStyle(StackNavigationViewStyle())
 
     }
 }

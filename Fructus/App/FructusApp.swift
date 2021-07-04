@@ -14,7 +14,6 @@ struct FructusApp: App {
     //read/write data and watches value change!
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     
-    
     var body: some Scene {
         WindowGroup {
             if isOnboarding{
